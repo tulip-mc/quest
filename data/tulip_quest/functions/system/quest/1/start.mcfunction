@@ -1,6 +1,6 @@
 ## quest 1
 # stats
-clear @s emerald[minecraft:custom_data={quest_id:1}] 1
+clear @s emerald[minecraft:custom_data={linked_quest:1}] 1
 scoreboard players set @s quest_1.completed 1
 # sfx
 playsound minecraft:entity.experience_orb.pickup player @s

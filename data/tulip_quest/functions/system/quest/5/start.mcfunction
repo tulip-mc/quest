@@ -1,6 +1,6 @@
 ## quest 5 (Help the Baker)
 # stats
-clear @s nether_star[minecraft:custom_data={quest_id:5}] 1
+clear @s nether_star[minecraft:custom_data={linked_quest:5}] 1
 scoreboard players set @s quest_5.completed 1
 # sfx
 playsound minecraft:entity.experience_orb.pickup player @s

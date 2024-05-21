@@ -1,6 +1,6 @@
 ## quest 4
 # stats
-clear @s nether_star[minecraft:custom_data={quest_id:4}] 1
+clear @s nether_star[minecraft:custom_data={linked_quest:4}] 1
 scoreboard players set @s quest_4.completed 1
 # sfx
 playsound minecraft:entity.experience_orb.pickup player @s
